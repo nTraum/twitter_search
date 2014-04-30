@@ -12,6 +12,7 @@ group :production do
 end
 
 group :test do
+  gem 'rack-test',  :require => false
   gem 'coveralls',  :require => false
-  gem 'minitest',   :require =>  false
+  gem 'minitest',   :require => false
 end
