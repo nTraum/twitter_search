@@ -3,11 +3,11 @@
 [![Coverage Status](https://coveralls.io/repos/nTraum/twitter_search/badge.png)](https://coveralls.io/r/nTraum/twitter_search)
 [![Code Climate](https://codeclimate.com/github/nTraum/twitter_search.png)](https://codeclimate.com/github/nTraum/twitter_search)
 
-# Installation / Usage
+## Installation / Usage
 
-# License
+## License
 
-MIT
+Published under the MIT License.
 
 ## Contributing
 
