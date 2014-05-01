@@ -12,7 +12,7 @@ require 'rack/test'
 require 'twitter_search'
 
 def app
-    Sinatra::Application
+    TwitterSearch
 end
 
 class Minitest::Spec

@@ -1,10 +1,13 @@
-require 'sinatra'
+require 'sinatra/base'
 require 'slim'
 
-get '/' do
-  slim :index
-end
 
-not_found do
-  slim :not_found
+class TwitterSearch < Sinatra::Application
+  get '/' do
+    slim :index
+  end
+
+  not_found do
+    slim :not_found
+  end
 end

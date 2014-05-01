@@ -1,9 +1,9 @@
 require 'rake/testtask'
 require 'yard'
 
-desc 'Start the twitter_search app'
+desc 'Start the twitter_search app via rackup'
 task :start do
-  ruby 'app/twitter_search.rb'
+  exec 'rackup'
 end
 
 # Define test task
