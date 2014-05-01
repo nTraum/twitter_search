@@ -1,1 +1,20 @@
-h2 index
+.row
+  .col-md-12
+    h1 Twitter search
+.row
+  .col-md-12
+    .search
+      form role='form'
+        .form-group
+          label.sr-only Search
+          .row
+            .col-md-4
+              input.form-control type='search' placeholder='...' id='search' autofocus=true required=true
+        button.btn.btn-primary type='submit'
+          i.fa.fa-search
+          |  Search
+.row
+  .col-md-8
+    h2 Tweets
+  .col-md-4
+    h2 Graph
