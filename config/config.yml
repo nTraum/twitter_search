@@ -1,12 +1,11 @@
+defaults: &defaults
+  twitter:
+    key:
+    secret:
+
 development:
-  twitter:
-    key:
-    secret:
+  <<: *defaults
 test:
-  twitter:
-    key:
-    secret:
+  <<: *defaults
 production:
-  twitter:
-    key:
-    secret:
+  <<: *defaults
