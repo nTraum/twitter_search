@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'rake'
 gem 'slim'
+gem 'twitter'
 
 group :development do
   gem 'yard'
