@@ -1,6 +1,11 @@
 require 'rake/testtask'
 require 'yard'
 
+desc 'Start the twitter_search app'
+task :start do
+  ruby 'app/twitter_search.rb'
+end
+
 # Define test task
 Rake::TestTask.new do |t|
     t.libs << 'test'
