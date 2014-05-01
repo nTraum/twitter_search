@@ -1,0 +1,12 @@
+development:
+  twitter:
+    key:
+    secret:
+test:
+  twitter:
+    key:
+    secret:
+production:
+  twitter:
+    key:
+    secret:
