@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.3.6)
     buftok (0.2.0)
+    coderay (1.1.0)
     coveralls (0.7.0)
       multi_json (~> 1.3)
       rest-client
@@ -19,11 +20,16 @@ GEM
     json (1.8.1)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
+    method_source (0.8.2)
     mime-types (2.2)
     minitest (5.3.3)
     multi_json (1.9.3)
     multipart-post (2.0.0)
     naught (1.0.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     puma (2.8.2)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
@@ -47,6 +53,7 @@ GEM
     slim (2.0.2)
       temple (~> 0.6.6)
       tilt (>= 1.3.3, < 2.1)
+    slop (3.5.0)
     temple (0.6.7)
     term-ansicolor (1.3.0)
       tins (~> 1.0)
@@ -73,6 +80,7 @@ PLATFORMS
 DEPENDENCIES
   coveralls
   minitest
+  pry
   puma
   rack-test
   rake

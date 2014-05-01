@@ -7,6 +7,7 @@ gem 'twitter'
 
 group :development do
   gem 'yard'
+  gem 'pry'
 end
 
 group :production do
